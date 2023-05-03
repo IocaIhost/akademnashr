@@ -1,0 +1,169 @@
+.site-header{
+    background-color: #fff;
+}
+
+.header{
+    width: 1100px;
+}
+
+.sitenav{
+    width: 610px;
+}
+
+.sitenav-list{
+    list-style-type: none;
+}
+
+.sitenav-link{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.orange-btn{
+    font-size: 13px;
+    line-height: 15px;
+    background-color:  #FF7500;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* HERO */
+.hero{
+    background-color: #252420;
+    color: white;
+}
+
+.orange-line{
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+}
+
+.hero-content{
+    width: 387px;
+}
+
+
+.hero-heading{
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.hero-text{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+.hero-img{
+    width: 510px;
+    height: 510px;
+}
+
+
+
+/* FEATURES */
+.features-heading{
+    width: 440px;
+    font-size: 72px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.feature{
+    width: 340px;
+    list-style: none;
+}
+
+.feature-icon-wrapper{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0.2);
+}
+
+
+.features-title{
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.feature-info{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* PROMO SECTION */
+.promo{
+    background-color: #252420;
+}
+
+.promo-content{
+    width: 440px;
+    color: #FFFFFF;
+}
+
+.promo-heading{
+    font-size: 40px;
+    line-height: 48px;
+} 
+
+.promo-text{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+.promo-orange{
+    color: #FF7500;
+}
+
+.promo-img{
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+
+
+/* FOOTER */
+.site-footer{
+    background-color: #f8f8f8;
+}
+
+/* SOCIAL */
+.footer-social-list{
+    list-style: none;
+}
+
+.site-footer ul{
+    list-style: none;
+}
+
+.site-footer-devider{
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
+}
+
+/* LINKS */
+.site-footer-links{
+    width: 224px;
+}
+
+.site-footer-links a{
+    list-style: none;
+    text-decoration: none;
+    color: #252420;
+    font-size: 16px;
+    line-height: 19px;
+}
+
