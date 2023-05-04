@@ -1,9 +1,14 @@
+body{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    letter-spacing: 0.5;
+}
+
 /* SITE HEADER */
 .site-header{
     background-color: #fff;
 }
-
-
 
 
 /* SITENAV */
@@ -29,6 +34,7 @@
 /* ORANGE BTN */
 .orange-btn{
     font-size: 13px;
+    font-weight: 700;
     line-height: 15px;
     background-color:  #FF7500;
     color: white;
@@ -58,15 +64,12 @@
 
 .hero-heading{
     font-size: 40px;
-    line-height: 120%;
-    letter-spacing: 0.5px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Robot Condenced', 'Arial', sans-serif;
 }
 
-.hero-text{
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.5px;
-}
+
 
 .hero-img{
     width: 510px;
@@ -84,8 +87,8 @@
 .features-heading{
     width: 440px;
     font-size: 72px;
-    line-height: 120%;
-    letter-spacing: 0.5px;
+    font-family: 'Roboto Condensed', 'Roboto', 'Arial', sans-serif;
+    line-height: 1.2;
 }
 
 
@@ -98,14 +101,9 @@
 
 .features-title{
     font-size: 24px;
-    line-height: 120%;
-    letter-spacing: 0.5px;
-}
-
-.feature-info{
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.5px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Roboto Condensed', 'Roboto', 'Arial', sans-serif;
 }
 
 
@@ -122,14 +120,12 @@
 
 .promo-heading{
     font-size: 40px;
+    font-weight: 700;
     line-height: 48px;
+    font-family: 'Roboto Condensed', 'Roboto', 'Arial', sans-serif;
 } 
 
-.promo-text{
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.5px;
-}
+
 
 .promo-orange{
     color: #FF7500;
@@ -166,13 +162,11 @@
 /* LINKS */
 .site-footer-links{
     width: 224px;
+    line-height: 19px;
 }
 
 .site-footer-links a{
-    list-style: none;
     text-decoration: none;
     color: #252420;
-    font-size: 16px;
-    line-height: 19px;
 }
 
