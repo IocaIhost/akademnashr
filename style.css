@@ -1,7 +1,5 @@
-body{
-    font-size: 16px;
-    line-height: 24px;
-    font-family: 'Roboto', 'Arial', sans-serif;
+*{
+    box-sizing: border-box;
 }
 
 *:focus{
@@ -10,11 +8,33 @@ body{
 }
 
 
-/* SITE HEADER */
-.site-header{
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+
+/* CONTAINER */
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.site-header-container{
     display: flex;
     justify-content: space-between;
     align-items:center;
+}
+
+/* SITE HEADER */
+.site-header{
     padding-top: 16px;
     padding-bottom: 16px;
     border-top: 5px solid #FF7500;
@@ -43,10 +63,6 @@ body{
 }
 
 /* SITENAV */
-.sitenav{
-    /* width: 610px; */
-}
-
 .sitenav-list{
     display: flex;
     padding: 0;
@@ -104,13 +120,16 @@ body{
 
 
 /* HERO */
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .hero{
     padding: 80px 0 80px 0;
     background-color: #252420;
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 
@@ -147,6 +166,7 @@ body{
     width: 510px;
     height: 510px;
     border-radius: 8px;
+    box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
 }
 
 
@@ -190,28 +210,46 @@ body{
     align-items: center;
     width: 100px;
     height: 100px;
+    margin-bottom: 32px;
     border-radius: 50%;
     background-color: rgba(255, 117, 0, 0.2);
 }
 
 
 .features-title{
+    margin-top: 0px;
+    margin-bottom: 12px;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
     font-family: 'Roboto Condensed', 'Roboto', 'Arial', sans-serif;
 }
 
+.feature-info{
+    margin: 0;
+}
+
 
 
 /* PROMO SECTION */
+.promo-container{
+}
+
 .promo{
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+
+.promo-inner{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    padding: 64px;
     background-color: #252420;
     border-radius: 12px;
 }
+
 
 .promo-content{
     width: 440px;
@@ -328,6 +366,10 @@ body{
     margin-right: 68px;
 }
 
+.site-footer-links li:not(:last-child){
+    padding-bottom: 16px;
+}
+
 .site-footer-links a{
     text-decoration: none;
     color: #252420;
@@ -341,3 +383,4 @@ body{
 .site-footer-links a:active{
     opacity: 0.6;
 }
+
