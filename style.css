@@ -46,7 +46,13 @@ body{
 .sitenav-list{
     display: flex;
     padding: 0;
+    margin: 0;
+    margin-right: 32px;
     list-style-type: none;
+}
+
+.sitenav-item:not(:last-child){
+    margin-right: 32px;
 }
 
 .sitenav-link{
@@ -110,6 +116,8 @@ body{
     height: 3px;
     background-color: #FF7500;
     border-radius: none;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 .hero-content{
@@ -118,20 +126,24 @@ body{
 
 
 .hero-heading{
+    margin-top: 0;
+    margin-bottom: 24px;
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
     font-family: 'Robot Condenced', 'Arial', sans-serif;
 }
 
-
+.hero-text{
+    margin-top: 0;
+    margin-bottom: 32px;
+}
 
 .hero-img{
     width: 510px;
     height: 510px;
     border-radius: 8px;
 }
-
 
 
 /* FEATURES */
@@ -142,6 +154,8 @@ body{
 
 
 .features-heading{
+    margin-top: 0;
+    margin-bottom: 72px;
     width: 440px;
     font-size: 72px;
     font-family: 'Roboto Condensed', 'Roboto', 'Arial', sans-serif;
@@ -151,8 +165,8 @@ body{
 .features-list{
     display: flex;
     list-style: none;
-    justify-content: space-between;
     padding: 0;
+    margin: 0;
 }
 
 
@@ -160,6 +174,11 @@ body{
 .feature{
     width: 340px;
 }
+
+.feature:not(:last-child){
+    margin-right: 40px;
+}
+
 
 .feature-icon-wrapper{
     display: flex;
@@ -197,11 +216,25 @@ body{
 
 .promo-heading{
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 24px;
     font-weight: 700;
     line-height: 48px;
     font-family: 'Roboto Condensed', 'Roboto', 'Arial', sans-serif;
 } 
 
+.promo-text{
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.promo-text:last-child{
+    margin-bottom: 0;
+}
+
+.promo-info-wrapper:not(:last-child){
+    margin-bottom: 24px;
+}
 
 
 .promo-orange{
@@ -233,6 +266,7 @@ body{
 
 .site-footer ul{
     list-style: none;
+    margin: 0;
 }
 
 /* SOCIAL */
@@ -240,9 +274,16 @@ body{
     display: flex;
     align-items: center;
     padding: 0;
+    margin: 0;
 }
 
+.site-footer-socials-item:not(:last-child){
+    margin-right: 16px;
+}
+
+
 .site-footer-socials a{
+    display: block;
     color: #252420;
 }
 
@@ -254,10 +295,17 @@ body{
     opacity: 0.6;
 }
 
+.site-footer-socials svg{
+    display: block;
+}
+
+
 .site-footer-devider{
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
     border: 0;
+    margin-top: 40px;
+    margin-bottom: 64px;
 }
 
 .site-footer-bottom{
@@ -266,9 +314,14 @@ body{
 
 /* LINKS */
 .site-footer-links{
-    padding: 0;
     width: 224px;
+    padding: 0;
+    margin: 0;
     line-height: 19px;
+}
+
+.site-footer-links:not(:last-child){
+    margin-right: 68px;
 }
 
 .site-footer-links a{
