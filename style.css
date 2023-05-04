@@ -8,15 +8,23 @@ body{
 /* SITE HEADER */
 .site-header{
     background-color: #fff;
+    justify-content: space-between;
+    align-items:center;
+    display: flex;
 }
 
+.site-header-actions{
+    display: flex;
+    align-items: center;
+}
 
 /* SITENAV */
 .sitenav{
-    width: 610px;
+    /* width: 610px; */
 }
 
 .sitenav-list{
+    display: flex;
     list-style-type: none;
 }
 
@@ -47,6 +55,9 @@ body{
 .hero{
     background-color: #252420;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -79,11 +90,6 @@ body{
 
 
 /* FEATURES */
-.feature{
-    width: 340px;
-    list-style: none;
-}
-
 .features-heading{
     width: 440px;
     font-size: 72px;
@@ -91,6 +97,17 @@ body{
     line-height: 1.2;
 }
 
+.features-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+/* FEATURE */
+.feature{
+    width: 340px;
+}
 
 .feature-icon-wrapper{
     width: 100px;
@@ -110,6 +127,9 @@ body{
 
 /* PROMO SECTION */
 .promo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #252420;
 }
 
@@ -145,18 +165,27 @@ body{
     background-color: #f8f8f8;
 }
 
-/* SOCIAL */
-.footer-social-list{
-    list-style: none;
+.site-footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.site-footer ul{
+/* SOCIAL */
+
+.site-footer-socials{
+    display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .site-footer-devider{
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-bottom{
+    display: flex;
 }
 
 /* LINKS */
