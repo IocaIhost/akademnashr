@@ -2,7 +2,6 @@ body{
     font-size: 16px;
     line-height: 24px;
     font-family: 'Roboto', 'Arial', sans-serif;
-    letter-spacing: 0.5;
 }
 
 *:focus{
@@ -13,10 +12,13 @@ body{
 
 /* SITE HEADER */
 .site-header{
-    background-color: #fff;
+    display: flex;
     justify-content: space-between;
     align-items:center;
-    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 5px solid #FF7500;
+    background-color: #fff;
 }
 
 .logo-link{
@@ -43,6 +45,7 @@ body{
 
 .sitenav-list{
     display: flex;
+    padding: 0;
     list-style-type: none;
 }
 
@@ -61,6 +64,7 @@ body{
     color:#FF7500;
 }
 
+
 .sitenav-link:active{
     opacity: 0.6;
 }
@@ -68,6 +72,9 @@ body{
 
 /* ORANGE BTN */
 .orange-btn{
+    display: inline-block;
+    border-radius: 4px;
+    padding: 12px 24px;
     font-size: 13px;
     font-weight: 700;
     line-height: 15px;
@@ -88,6 +95,7 @@ body{
 
 /* HERO */
 .hero{
+    padding: 80px 0 80px 0;
     background-color: #252420;
     color: white;
     display: flex;
@@ -101,6 +109,7 @@ body{
     width: 80px;
     height: 3px;
     background-color: #FF7500;
+    border-radius: none;
 }
 
 .hero-content{
@@ -120,11 +129,18 @@ body{
 .hero-img{
     width: 510px;
     height: 510px;
+    border-radius: 8px;
 }
 
 
 
 /* FEATURES */
+.features{
+    padding-top: 120px;
+    padding-bottom: 210px;
+}
+
+
 .features-heading{
     width: 440px;
     font-size: 72px;
@@ -136,6 +152,7 @@ body{
     display: flex;
     list-style: none;
     justify-content: space-between;
+    padding: 0;
 }
 
 
@@ -145,8 +162,12 @@ body{
 }
 
 .feature-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
+    border-radius: 50%;
     background-color: rgba(255, 117, 0, 0.2);
 }
 
@@ -166,6 +187,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #252420;
+    border-radius: 12px;
 }
 
 .promo-content{
@@ -190,6 +212,7 @@ body{
     width: 440px;
     height: 440px;
     object-fit: cover;
+    border-radius: 12px;
 }
 
 
@@ -197,6 +220,8 @@ body{
 
 /* SITE FOOTER */
 .site-footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
     background-color: #f8f8f8;
 }
 
@@ -214,6 +239,7 @@ body{
 .site-footer-socials{
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 .site-footer-socials a{
@@ -231,6 +257,7 @@ body{
 .site-footer-devider{
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
+    border: 0;
 }
 
 .site-footer-bottom{
@@ -239,6 +266,7 @@ body{
 
 /* LINKS */
 .site-footer-links{
+    padding: 0;
     width: 224px;
     line-height: 19px;
 }
